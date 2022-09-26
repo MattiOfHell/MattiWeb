@@ -1,0 +1,554 @@
+html {
+    padding: 0;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #101010;
+}
+
+/*
+ * Scrollbar
+ */
+
+body::-webkit-scrollbar {
+    width: 12px;       
+}
+
+body::-webkit-scrollbar-track {
+    background: #121212;        
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #202020;
+    border-radius: 20px; 
+    border: solid 1px #212121;
+}
+
+#web {
+    width: 100%;
+    min-width: 1135px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#web-container {
+    width: 1135px;
+    height: auto;
+}
+
+#web-cover {
+    width: 1135px;
+    min-height: 750px;
+    /*background-color: red;*/
+}
+
+.divisor {
+    border: 1px solid #131313;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.page-title-divisor {
+    border: 1px solid #131313;
+    width: 473px;
+    margin-top: 33.75px;
+    margin-bottom: 22.75px;
+}
+
+/*
+ * Navigation Bar
+ */
+
+#pages {
+    display: flex;
+    flex-direction: row;
+}
+
+#navigation-bar {
+    margin: 0;
+    padding-top: 47.25px;
+    padding-bottom: 47.25px;
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#pages {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+#my-name-title {
+    font-family: Verdana;
+    font-size: 14.5px;
+    color: #D4D4D4;
+    letter-spacing: 0.41px;
+    font-weight: lighter;
+    margin: 0;
+    width: 100%;
+    user-select: none;
+}
+
+.page-button {
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+}
+
+.navbar-page-button-number {
+    font-family: Verdana;
+    font-size: 14.5px;
+    color: #9D9D9D;
+    letter-spacing: 0.41px;
+    text-align: right;
+    margin: 0;
+    font-weight: lighter;
+    margin-right: 5px;
+    user-select: none;
+}
+
+.navbar-page-button-title {
+    font-family: Verdana;
+    font-size: 14.5px;
+    color: #D4D4D4;
+    letter-spacing: 0.41px;
+    text-align: right;
+    margin: 0;
+    font-weight: lighter;
+    user-select: none;
+}
+
+#about-me-page-button {
+    margin-right: 40px;
+}
+
+#projects-page-button {
+    margin-right: 40px;
+}
+
+/*
+ * Cover page items
+ */
+
+#cover-content {
+    display: flex;
+    flex-direction: row;
+}
+
+#introduction-texts {
+    margin-top: 193.25px;
+    width: 100%;
+    justify-content: start;
+}
+
+#developer-image-container {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+}
+
+#developer-image {
+    margin-top: 80.75px;
+    margin-bottom: 123.75px;
+    user-select: none;
+}
+
+#welcome-code-text {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #F46767;
+    letter-spacing: 0.4px;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: 60.5px;
+}
+
+#code-gray {
+    color: #9D9D9D;
+    font-weight: lighter;
+}
+
+#hello-text {
+    font-family: Verdana;
+    font-size: 61px;
+    color: #D4D4D4;
+    letter-spacing: 1.74px;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: 56.5px;
+}
+
+#who-am-i-text {
+    font-family: Verdana;
+    font-size: 36px;
+    color: #9D9D9D;
+    letter-spacing: 1.03px;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: 60px;
+    margin-top: 2.5px;
+}
+
+#lorenzo-rocca-bright {
+    color: #D4D4D4;
+    font-weight: bold;
+}
+
+#code-text-end {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #9D9D9D;
+    letter-spacing: 0.4px;
+    text-align: left;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: 61.25px;
+    margin-top: 7.5px;
+}
+
+/*
+ * About me page
+ */
+
+#about-me-page-container {
+    width: 1135px;
+    min-height: 846.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#about-me-title-text-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 125px;
+}
+
+#about-me-page-title-number {
+    font-family: Verdana;
+    font-size: 61px;
+    color: #9D9D9D;
+    letter-spacing: 1.74px;
+    text-align: left;
+    font-weight: lighter;
+    margin: 0;
+    margin-right: 5px;
+}
+
+#about-me-page-title-text {
+    font-family: Verdana;
+    font-size: 61px;
+    color: #D4D4D4;
+    letter-spacing: 1.74px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#about-me-description {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #9D9D9D;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#know-studying-title {
+    font-family: Verdana;
+    font-size: 26px;
+    color: #D4D4D4;
+    letter-spacing: 0.74px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 97px;
+    margin-bottom: 61px;
+}
+
+#known-languages-container {
+    display: flex;
+    flex-direction: column;
+}
+
+#first-row-known-languages-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 42.5px;
+}
+
+#second-row-known-languages-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 125px;
+}
+
+.known-learn-language-icon {
+    width: 65px;
+    margin-left: 18.75px;
+    margin-right: 18.75px;
+}
+
+/*
+ * Projects page
+ */
+
+#projects-page-container {
+    width: 1135px;
+    min-height: 861px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+#projects-title-text-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 125px;
+}
+
+#projects-page-title-number {
+    font-family: Verdana;
+    font-size: 61px;
+    color: #9D9D9D;
+    letter-spacing: 1.74px;
+    text-align: left;
+    font-weight: lighter;
+    margin: 0;
+    margin-right: 5px;
+}
+
+#projects-page-title-text {
+    font-family: Verdana;
+    font-size: 61px;
+    color: #D4D4D4;
+    letter-spacing: 1.74px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#projects-paragraph {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #9D9D9D;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#projects-boxes-container {
+    margin-top: 86px;
+    margin-bottom: 150px;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+#projects-boxes-first-rown {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+#projects-boxes-second-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.project-box {
+    border: 1px solid #2C2C2C;
+    border-radius: 5px;
+    width: 500px;
+    height: 160px;
+    display: flex;
+    flex-direction: row;
+}
+
+#hashcraft-project-box {
+    margin-right: 15px;
+}
+
+.project-box-logo-container {
+    width: 160px;
+    height: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #2C2C2C;
+}
+
+.project-logo {
+    width: 145px;
+    height: 145px;
+}
+
+.project-text-containers {
+    margin: 0;
+    margin-left: 35px;
+    margin-top: 42px;
+}
+
+.project-box-title {
+    font-family: Verdana;
+    font-size: 26px;
+    color: #D4D4D4;
+    letter-spacing: 0.74px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+.project-box-description {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #D4D4D4;
+    letter-spacing: 0.4px;
+    font-weight: lighter;
+    margin: 0;
+    margin-top: 6px;
+}
+
+.browse-code-link {
+    font-family: Verdana;
+    font-size: 9px;
+    color: #FFCEA9;
+    letter-spacing: 0.26px;
+    font-weight: lighter;
+    margin: 0;
+    text-decoration: none;
+    margin-top: 11px;
+}
+
+#archived-badge {
+    width: 55px;
+}
+
+/*
+ * Socials page
+ */
+
+#socials-page-container {
+    width: 1135px;
+    min-height: 507px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#socials-title-text-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 125px;
+}
+
+#socials-page-title-number {
+    font-family: Verdana;
+    font-size: 61px;
+    color: #9D9D9D;
+    letter-spacing: 1.74px;
+    text-align: left;
+    font-weight: lighter;
+    margin: 0;
+    margin-right: 5px;
+}
+
+#socials-page-title-text {
+    font-family: Verdana;
+    font-size: 61px;
+    color: #D4D4D4;
+    letter-spacing: 1.74px;
+    font-weight: lighter;
+    margin: 0;
+}
+
+#socials-paragraph {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #9D9D9D;
+    letter-spacing: 0.4px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+.social-button {
+    cursor: pointer;
+}
+
+#youtube-button {
+    height: 48px;
+    margin-right: 35px;
+}
+
+#github-button {
+    width: 48px;
+    height: 48px;
+    margin-right: 35px;
+}
+
+#instagram-button {
+    width: 48px;
+    height: 48px;
+    margin-right: 16.65px;
+}
+
+#socials-buttons-container {
+    margin: 0;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*
+ * Copyright notice
+ */
+
+#copyright-notice {
+    margin-top: 44.5px;
+    margin-bottom: 46px;
+}
+
+#copyright-notice-header {
+    font-family: Verdana;
+    font-size: 14px;
+    color: #9D9D9D;
+    font-weight: lighter;
+    letter-spacing: 0.4px;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 8px;
+}
+
+#copyright-notice-text {
+    font-family: Verdana;
+    font-size: 9px;
+    color: #7B7B7B;
+    letter-spacing: 0.26px;
+    text-align: center;
+    font-weight: lighter;
+    margin: 0;
+}
