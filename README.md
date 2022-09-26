@@ -1,2 +1,4 @@
 # MattiWeb
-My web site. Credits: GitHub/LoRy24
+My about-me website.
+
+Credits: https://github.com/LoRy24
